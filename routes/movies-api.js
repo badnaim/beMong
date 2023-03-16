@@ -14,6 +14,11 @@ movieRouter.get("/", async (request, response) => {
   }
 });
 
+movieRouter.post("/post", async (req, res) => {
+  console.log("posted");
+  res.send("test");
+});
+
 export default movieRouter;
 
 // module js, common js

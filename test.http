@@ -1,0 +1,25 @@
+get http://localhost:3456/movies HTTP/1.1
+
+###
+
+post http://localhost:3456/movies/post HTTP/1.1
+Content-Type: application/json
+
+{
+    "plot": "IKH",
+    "genres": ["Bdvre Vfd"],
+    "runtime": 2,
+    "cast": ["vb", "gh"],
+    "num_mflix_comments": 78,
+    "title": "my love",
+    "fullplot": "scr",
+    "countries": ["vbuj"],
+    "released": "2015-06-03",
+    "director": ["me ghi"],
+    "awards": { "oscar": 1, "sucks": "best"},
+    "lastUpdated": "2015-09-23",
+    "year": 2016,
+    "imdb": { "rating": 9.9},
+    "type": "eer",
+    "tomatoes": { "viewer": 9, "lastUpdated": "2015-06-23"},
+}
